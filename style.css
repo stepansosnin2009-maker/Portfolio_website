@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #D9D9D9;
+}
+header a{
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover{
+    color: red;
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    display: flex;
+    border-bottom: white solid 4px;
+}
+main{
+    background-color: black;
+}
+main h1{
+    color: gold;
+    margin-left: 100px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+main p{
+    color: white;
+    margin-left: 150px;
+    max-width: 600px;
+}
+.in{
+    display: flex;
+    margin-bottom: 80px;
+}
+.put{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+}
+.in p{
+    color: gold;
+}
+footer{
+    background-color: black;
+    display: flex;
+    border-top: white solid 4px;
+    height: 100px;
+}
+footer p{
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.progect{
+    margin-left: 210px;
+}
+.progect img{
+    margin-left: 70px;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 30px;
+    font-size: 24px;
+    margin-left: 800px;
+}
+#mainnav li{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header img{
+    margin-left: 70px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.wk{
+    margin-left: 150px;
+}
+.tg{
+    margin-left: 50px;
+}
+p{
+    font-size: 24px;
+}
+.phon{
+    font-size: 32px;
+}
+footer img{
+    margin-left: 571px;
+    margin-right: 603px;
+}
+input{
+    margin-left: 150px;
+    height: 50px;
+    width: 410px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    font-size: 24px;
+}
+textarea{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 380px;
+    width: 410px;
+    border-radius: 30px;
+    font-size: 24px;
+}
+button{
+    height: 60px;
+    width: 410px;
+    color: gold;
+    background-color: red;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: 40px;
+}
