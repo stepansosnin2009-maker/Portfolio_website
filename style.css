@@ -44,15 +44,19 @@ main p{
     min-height: 100%;
     height: auto !important;
 }
-.text{
+.in p{
     color: gold;
-    margin-top: 20px;
 }
 footer{
     background-color: black;
     display: flex;
     border-top: white solid 4px;
     height: 100px;
+}
+footer p{
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
 }
 .progect{
     margin-left: 210px;
@@ -97,8 +101,8 @@ p{
     font-size: 32px;
 }
 footer img{
-    margin-left: 70px;
-    margin-right: 1174px;
+    margin-left: 571px;
+    margin-right: 603px;
 }
 input{
     margin-left: 150px;
@@ -126,4 +130,3 @@ button{
     border-radius: 50px;
     font-size: 40px;
 }
-
